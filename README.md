@@ -28,8 +28,7 @@ Then navigate to the private key file in Windows Explorer, right-click and selec
 ```
 git clone https://github.com/YOURUSERNAME/gen711-811.git
 ```
-To get new course files added to your repository later, you will need to add the original repository (the one you forked) as a 'remote' [see here for help](https://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository)  
-[and here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)  
+To get new course files added to your repository later, you will need to add the original repository (the one you forked) as a 'remote' [see here for help](https://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository),[and here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)  
 To add updates from the gen711-811 repo:
 ```
 cd gen711-811
@@ -37,7 +36,7 @@ git remote add upstream https://github.com/jthmiller/gen711-811.git
 git fetch upstream
 git merge upstream/master master
 ```
-## note, git merge is like "git pull" which is fetch + merge. Or, better, you can replay your local work on top of the fetched branch like a "git pull --rebase"
+Note, git merge is like "git pull" which is fetch + merge. Or, better, you can replay your local work on top of the fetched branch like a "git pull --rebase"
 ```
 git rebase upstream/master
 ```
