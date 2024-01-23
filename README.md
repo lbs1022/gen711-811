@@ -1,6 +1,6 @@
 # Data for gen711 and 811 lab exercises
 
-- *Step 1*. Sign up for a github account  
+- **Step 1** Sign up for a github account  
 - Step 2. From a from your github account, fork this repository: https://github.com/jthmiller/gen711-811.git  
 - Step 3. To get new course files added later, you will need to add the original repository (the one you forked) as a remote of your repository [see here](https://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository)  
 [and here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
