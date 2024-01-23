@@ -1,16 +1,12 @@
 # Data for gen711 and 811 lab exercises
 
-## Lab 1 (take home lab, 01/26/24)
-- **Step 1.** Sign up for a github account here 
-- **Step 2.** From a from your github account, fork this repository: https://github.com/jthmiller/gen711-811.git
-- Shortcut to the 'fork' [button](https://github.com/jthmiller/gen711-811/fork) I am not sure if this works  
-- **Step 3.** Install visual studio code from [here](https://code.visualstudio.com/Download) 
+## [Lab 1](labs/lab1.md) (take home lab, 01/26/24)
 
 ## Lab 2 (02/02/24)
 - **Step 1.** Ensure that vscode is installed on your machine (either lab computer OR laptop).
 - **Step 2.** Set up remote-ssh so that you are logged in to RON when you open vscode [see here](https://code.visualstudio.com/docs/remote/ssh). 
 
-First, open 'terminal' on your mac. Then, after generating the keys, you will restrict the permissions on the private key file. For macOS / Linux, run the following shell command, replacing the path to your private key if necessary:
+First, open 'terminal' on your mac. We are going to use the terminal to generate the keys and restrict the permissions on the private key file. For macOS / Linux, run the following shell command, replacing the path to your private key if necessary:
 ```
 cd ~/.ssh
 ssh-keygen -t ed25519 -b 4096
