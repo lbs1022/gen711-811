@@ -30,6 +30,9 @@ git clone https://github.com/<YOURGITHUBUSERNAME>/gen711-811.git
 - **Step 7.** Save your vscode workspace in your repo on RON. Go to 'File' --> 'Save Workspace As' and save it to the 'gen711-811' folder on RON. This way, you can load this workspace each week to pick up where you left off. 
 
 To get new course files added to your repository later, you will need to add the original repository (the one you forked) as a 'remote' [see here for help](https://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository),[and here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)  
+
+https://www.cs.unh.edu/~cs925/assignments/gitlab.html
+
 To add updates from the gen711-811 repo:
 ```
 cd gen711-811
