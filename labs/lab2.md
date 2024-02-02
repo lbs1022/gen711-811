@@ -10,10 +10,15 @@ For this lab, we will:
 2. In the upper left search bar, type 'Remote SSH'
 3. Click 'install' 
 4. Open the vscode 'command pallete' by pressing 'CMD + Shift + P'. A little bar at the top of the screen should pop up. Begin to type 'Remote-SSH: Add New SSH Host...'. Before you get too far, you should see it pop-up. Click it. 
-5. **Enter your username and password when prompted.** The username is the students id. The password is your username + zfG!1. Example: Your initial password for the class server (Ron) is: ```acb1078zfG!1``` The server name is ron.sr.unh.edu and your username is ``` acb1078 ```  
-6. Click the config file that contains .ssh folder
-7. A window in the lower left should pop-up. **Click connect.** A new window should pop up 
-8. You are logged in to RON when a new vscode pops up. 
+5. **Enter your username and password when prompted.** The username is the students id.
+Username
+Example: jtm1171@ron.sr.unh.edu
+
+The password is your username + zfG!1. 
+Example: Your initial password for the class server (Ron) is: ```acb1078zfG!1``` The server name is ron.sr.unh.edu and your username is ``` acb1078 ```  
+7. Click the config file that contains .ssh folder
+8. A window in the lower left should pop-up. **Click connect.** A new window should pop up 
+9. You are logged in to RON when a new vscode pops up. 
 
 ### GITHUB Clone gen711-811 
 If you set up remote ssh correctly, you can clone your gen711-811 fork in your home directory on the RON server. This will create 'gen711-811' repo in your home directory. Changes made here can be pushed to github. 
