@@ -4,9 +4,11 @@ For this lab, we will
 - Install the 'remote-SSH' extension in visual studio code (vscode) 
 - Use vscode to connect (ssh) to the UNH teaching HPC (RON)
 - Clone the gen711-811 github in your home directory on RON
-
-- **Step 1.** Ensure that vscode is installed on your machine (either lab computer OR laptop).
-- **Step 2.** Set up remote-ssh so that you can connect to RON through vscode [see here](https://code.visualstudio.com/docs/remote/ssh). 
+<br>
+<br>
+**Step 1.** Ensure that vscode is installed on your machine (either lab computer OR laptop).
+<br>
+**Step 2.** Set up remote-ssh so that you can connect to RON through vscode [see here](https://code.visualstudio.com/docs/remote/ssh). 
 1. Click the 'building blocks' icon on the left hand side of vscode 
 2. In the upper left search bar, type 'Remote SSH'
 3. Click 'install' 
