@@ -11,8 +11,10 @@ For this lab, we will:
 3. Click 'install' 
 4. Open the vscode 'command pallete' by pressing 'CMD + Shift + P'. A little bar at the top of the screen should pop up. Begin to type 'Remote-SSH: Add New SSH Host...'. Before you get too far, you should see it pop-up. Click it. If you are asked what the host operating system is, click **LINUX**
 5. **Enter your username and password when prompted.** The username is the students id.
-Username example: jtm1171@ron.sr.unh.edu
-Password example: jtm1171zfG!1
+   
+Username example: jtm1171@ron.sr.unh.edu  
+
+Password example: jtm1171zfG!1  
 
 The password is your username + zfG!1 
 Example: Your initial password for the class server (Ron) is: ```acb1078zfG!1``` The server name is ron.sr.unh.edu and your username is ``` acb1078 ```  
