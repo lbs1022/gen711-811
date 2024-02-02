@@ -5,16 +5,14 @@ For this lab, we will:
 - Use vscode to connect (ssh) to the UNH teaching HPC (RON)
 - Clone the gen711-811 github in your home directory on RON
 
-**Step 1.** Ensure that vscode is installed on your machine (either lab computer OR laptop).  
-
-**Step 2.** Set up remote-ssh so that you can connect to RON through vscode [see here](https://code.visualstudio.com/docs/remote/ssh). 
-1. Click the 'building blocks' icon on the left hand side of vscode 
+### Set up remote-ssh so that you can connect to RON through vscode [see here](https://code.visualstudio.com/docs/remote/ssh). 
+1. Open up vscode and click the 'building blocks' icon on the left hand side of vscode 
 2. In the upper left search bar, type 'Remote SSH'
 3. Click 'install' 
 4. Open the vscode 'command pallete' by pressing 'CMD + Shift + P'. A little bar at the top of the screen should pop up. Begin to type 'Remote-SSH: Add New SSH Host...'. Before you get too far, you should see it pop-up. Click it. 
-5. Enter your username and password when prompted. The username is the students id. The password is your username + zfG!1. Example: Your initial password for the class server (Ron) is: ```acb1078zfG!1``` The server name is ron.sr.unh.edu and your username is ``` acb1078 ```  
+5. **Enter your username and password when prompted.** The username is the students id. The password is your username + zfG!1. Example: Your initial password for the class server (Ron) is: ```acb1078zfG!1``` The server name is ron.sr.unh.edu and your username is ``` acb1078 ```  
 6. Click the config file that contains .ssh folder
-7. A window in the lower left should pop-up. Click connect. A new window should pop up 
+7. A window in the lower left should pop-up. **Click connect.** A new window should pop up 
 8. You are logged in to RON when a new vscode pops up. 
 
 ### GITHUB Clone gen711-811 
