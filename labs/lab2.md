@@ -23,9 +23,9 @@ Example: Your initial password for the class server (Ron) is: ```acb1078zfG!1```
 9. You are logged in to RON when a new vscode pops up. 
 
 ### GITHUB Clone gen711-811 
-If you set up remote ssh correctly, you can clone your gen711-811 fork in your home directory on the RON server. This will create 'gen711-811' repo in your home directory. Changes made here can be pushed to github. 
+If you set up remote ssh correctly, you are now in your home directory at RON. You can clone your gen711-811 fork in your home directory. This will create 'gen711-811' repo in your home directory. Changes made here can be pushed to github. 
 
-To run this command, you MUST replace <YOURGITHUBUSERNAME> with the github username you created before class.
+To run this command, you MUST replace <YOURGITHUBUSERNAME> with your **github username** that you created before class.
 ```
 cd $HOME
 git clone https://github.com/<YOURGITHUBUSERNAME>/gen711-811.git
@@ -34,7 +34,6 @@ git clone https://github.com/<YOURGITHUBUSERNAME>/gen711-811.git
 Now that you are connected to RON, make a lab notebook in your repo to be graded each week. In vscode terminal, go to 'file' --> 'new text file'. Save this empty file as 'yourlastname_yourfirstname.md'. Keep notes in this file as demonstrated by your instructor to get full attendence points.
 
 ### BONUS if everything goes well up until this point
-
 
 **Save your vscode workspace in your repo on RON and your local machine.**  
 Go to 'File' --> 'Save Workspace As' and save it to the 'gen711-811' folder on RON. This way, you can load this workspace each week to pick up where you left off. 
@@ -52,6 +51,10 @@ chmod 400 ~/.ssh/id_ed25519
 - Next, share the public key with the Ron server
 ```
 ssh-copy-id username@ron.sr.unh.edu
+```
+If that doesn't work, we can try:
+```
+cat ~/.ssh/id_rsa.pub | ssh user@12.34.56.78 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys
 ```
 </details> <!-- end for mac-->
 <br>
