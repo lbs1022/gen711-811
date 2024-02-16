@@ -1,14 +1,14 @@
 ## Lab 2 (02/02/24)
 
 For this lab, we will:
-- On windows, use putty to connect to RON to change your password 
+- On windows, use putty to connect to RON to change your password (so that you can connect with vscode later)
 - Install the 'remote-SSH' extension in visual studio code (vscode) (only do if you did not do this)
 - Use vscode to connect (ssh) to the UNH teaching HPC (RON)
 - Clone the gen711-811 github in your home directory on RON
 
 ### Windows (open putty and connect with ssh)
 Username example: jtm1171@ron.sr.unh.edu   
-Password example: jtm1171zfG!1    
+Password example: jtm1171uM!z$    
 
 ### Set up remote-ssh so that you can connect to RON through vscode [see here](https://code.visualstudio.com/docs/remote/ssh). 
 1. Open up vscode and click the 'building blocks' icon on the left hand side of vscode 
@@ -18,7 +18,6 @@ Password example: jtm1171zfG!1
 5. **Enter your username and password when prompted.** The username is the students id.
    
 Username example: jtm1171@ron.sr.unh.edu  
-
 Password example: jtm1171zfG!1  
 
 The password is your username + zfG!1 
