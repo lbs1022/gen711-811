@@ -23,4 +23,24 @@ git merge upstream/master master
 cd ~
 ```
 
-## Lab
+## Lab Exercises (put these answers into your lab notebooks)
+
+#### 3a  "3 ways to change directories to HOME from untrimmed_fastq"
+1.
+2.
+3.
+
+#### 3b. How many programs in /bin 
+1. Do each of the following tasks from your current directory using a single ls command for each:
+    - List all of the files in /Applications that start with the letter ‘c’.
+    - List all of the files in /Applications that contain the letter ‘a’.
+    - List all of the files in /Applications that end with the letter ‘o’.
+    - Bonus: List all of the files in /Applications that contain the letter ‘a’ or the letter ‘c’.
+
+Start with the letter c ____
+Start with the letter a ____
+Start with the letter o ____
+Contain the letter ‘a’ or the letter ‘c’ ____
+
+#### Find the line number in your history for the command that listed all the .fastq files using the absolute path. Paste the command that you used to do this below.
+1.
