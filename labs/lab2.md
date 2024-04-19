@@ -1,29 +1,35 @@
 ## Lab 2 (02/02/24)
 
 For this lab, we will:
-- Install the 'remote-SSH' extension in visual studio code (vscode) 
+- On windows, use putty to connect to RON to change your password (so that you can connect with vscode later)
+- Install the 'remote-SSH' extension in visual studio code (vscode) (only do if you did not do this)
 - Use vscode to connect (ssh) to the UNH teaching HPC (RON)
 - Clone the gen711-811 github in your home directory on RON
+
+### Windows (open putty and connect with ssh)
+Username example: jtm1171@ron.sr.unh.edu   
+Password example: jtm1171uM!z$    
 
 ### Set up remote-ssh so that you can connect to RON through vscode [see here](https://code.visualstudio.com/docs/remote/ssh). 
 1. Open up vscode and click the 'building blocks' icon on the left hand side of vscode 
 2. In the upper left search bar, type 'Remote SSH'
 3. Click 'install' 
-4. Open the vscode 'command pallete' by pressing 'CMD + Shift + P'. A little bar at the top of the screen should pop up. Begin to type 'Remote-SSH: Add New SSH Host...'. Before you get too far, you should see it pop-up. Click it. 
+4. Open the vscode 'command pallete' by pressing 'CMD + Shift + P'. A little bar at the top of the screen should pop up. Begin to type 'Remote-SSH: Add New SSH Host...'. Before you get too far, you should see it pop-up. Click it. If you are asked what the host operating system is, click **LINUX**
 5. **Enter your username and password when prompted.** The username is the students id.
-Username
-Example: jtm1171@ron.sr.unh.edu
+   
+Username example: jtm1171@ron.sr.unh.edu  
+Password example: jtm1171zfG!1  
 
-The password is your username + zfG!1. 
+The password is your username + zfG!1 
 Example: Your initial password for the class server (Ron) is: ```acb1078zfG!1``` The server name is ron.sr.unh.edu and your username is ``` acb1078 ```  
 7. Click the config file that contains .ssh folder
 8. A window in the lower left should pop-up. **Click connect.** A new window should pop up 
 9. You are logged in to RON when a new vscode pops up. 
 
 ### GITHUB Clone gen711-811 
-If you set up remote ssh correctly, you can clone your gen711-811 fork in your home directory on the RON server. This will create 'gen711-811' repo in your home directory. Changes made here can be pushed to github. 
+If you set up remote ssh correctly, you are now in your home directory at RON. You can clone your gen711-811 fork in your home directory. This will create 'gen711-811' repo in your home directory. Changes made here can be pushed to github. 
 
-To run this command, you MUST replace <YOURGITHUBUSERNAME> with the github username you created before class.
+To run this command, you MUST replace <YOURGITHUBUSERNAME> with your **github username** that you created before class.
 ```
 cd $HOME
 git clone https://github.com/<YOURGITHUBUSERNAME>/gen711-811.git
@@ -32,7 +38,6 @@ git clone https://github.com/<YOURGITHUBUSERNAME>/gen711-811.git
 Now that you are connected to RON, make a lab notebook in your repo to be graded each week. In vscode terminal, go to 'file' --> 'new text file'. Save this empty file as 'yourlastname_yourfirstname.md'. Keep notes in this file as demonstrated by your instructor to get full attendence points.
 
 ### BONUS if everything goes well up until this point
-
 
 **Save your vscode workspace in your repo on RON and your local machine.**  
 Go to 'File' --> 'Save Workspace As' and save it to the 'gen711-811' folder on RON. This way, you can load this workspace each week to pick up where you left off. 
@@ -50,6 +55,10 @@ chmod 400 ~/.ssh/id_ed25519
 - Next, share the public key with the Ron server
 ```
 ssh-copy-id username@ron.sr.unh.edu
+```
+If that doesn't work, we can try:
+```
+cat ~/.ssh/id_rsa.pub | ssh user@12.34.56.78 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys
 ```
 </details> <!-- end for mac-->
 <br>
